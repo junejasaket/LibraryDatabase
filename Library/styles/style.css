@@ -1,0 +1,311 @@
+html, body, p, h1, h2, h3, h4, h5, h6, img, ul, li, .logos a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+html {
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    /*width: 100%;*/
+    background-size: cover;
+    /*height: 620px;*/
+    background-repeat: no-repeat;
+}
+
+input[type=search] {
+    margin-left: -18%;
+    width: 135%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(../images/searchicon.png);
+    background-position: 10px 15px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    -moz-transition: width 0.4s ease-in-out;
+    -o-transition: width 0.4s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+
+
+/*input[type=search]:focus {
+    width: 80%;
+}*/
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.headings {
+    font-size: 40px;
+}
+
+
+/*----------------------------NAVIGATION-----------------------------*/
+
+nav {
+    background-color: #000000;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.nav-list, .social-list {
+    list-style: none;
+}
+
+.nav-list li, .social-list li {
+    float: left;
+}
+
+.social-list {
+    float: right;
+}
+
+.nav-list li {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.social-list li {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.social-list img {
+    height: 2.2vw;
+    width: 2.2vw;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    color: #000000;
+}
+
+tr {
+    background-color: #FFFFFF;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+
+/*------------------------HEADER-------------------------*/
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 45px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-top: 3%;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.table {
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+
+/*-----------------------FOOTER-----------------------------------*/
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+
+/*-------------------FOOTER PART-----------------------*/
+
+.centerAlign {
+    text-align: center;
+}
+
+form {
+    margin-right: 10%;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+.inputText {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.inputCheck {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin: 20px auto;
+    label {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fcfff4;
+        background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+        border-radius: 4px;
+        box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+        &:after {
+            content: '';
+            width: 9px;
+            height: 5px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            border: 3px solid #333;
+            border-top: none;
+            border-right: none;
+            background: transparent;
+            opacity: 0;
+            transform: rotate(-45deg);
+        }
+        &:hover::after {
+            opacity: 0.5;
+        }
+    }
+    input[type=checkbox] {
+        visibility: hidden;
+        &:checked+label:after {
+            opacity: 1;
+        }
+    }
+}
+
+:placeholder-shown {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+
+.btn {
+    background: #DBD8D3;
+    background-image: -webkit-linear-gradient(top, #DBD8D3, #DBD8D3);
+    background-image: -moz-linear-gradient(top, #DBD8D3, #DBD8D3);
+    background-image: -ms-linear-gradient(top, #DBD8D3, #DBD8D3);
+    background-image: -o-linear-gradient(top, #DBD8D3, #DBD8D3);
+    background-image: linear-gradient(to bottom, #DBD8D3, #DBD8D3);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 15px;
+    font-family: 'Slabo 27px', serif;
+    color: #000000;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 43%;
+    margin-left: 30%;
+}
+
+.btn:hover {
+    background: #3B5B8C;
+    background-image: -webkit-linear-gradient(top, #3B5B8C, #3B5B8C);
+    background-image: -moz-linear-gradient(top, #3B5B8C, #3B5B8C);
+    background-image: -ms-linear-gradient(top, #3B5B8C, #3B5B8C);
+    background-image: -o-linear-gradient(top, #3B5B8C, #3B5B8C);
+    background-image: linear-gradient(to bottom, #3B5B8C, #3B5B8C);
+    text-decoration: none;
+}
+
+.errors {
+    color: red;
+    font-size: 15px;
+    font-family: 'Bree Serif', serif;
+}
+
+.alphaList a {
+    font-size: 20px;
+    padding: 3px;
+}
+
+#newRecordFields h2{
+    text-align: center;
+}
+
+#newRecordFields .btn, #addRecord, #deleteRecord{
+    margin-top: 5%;
+    margin-left: 11%;
+    width: 80%;
+}
+
+#removeTable{
+    text-align: right;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 97%;
+}
+
+.container p{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.contactPage h2{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 4vw;
+}

@@ -1,0 +1,21 @@
+[30-Mar-2017 18:49:52 America/Toronto] PHP Parse error:  syntax error, unexpected end of file in /home/junejasa/public_html/PHP/Assignment7/login.php on line 100
+[30-Mar-2017 18:50:09 America/Toronto] PHP Parse error:  syntax error, unexpected end of file in /home/junejasa/public_html/PHP/Assignment7/login.php on line 96
+[06-Apr-2017 16:46:24 America/Toronto] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/junejasa/public_html/PHP/Library/signup.php on line 33
+[06-Apr-2017 16:46:24 America/Toronto] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/junejasa/public_html/PHP/Library/signup.php on line 33
+[06-Apr-2017 16:57:22 America/Toronto] PHP Warning:  mysqli::query(): Empty query in /home/junejasa/public_html/PHP/Library/signup.php on line 11
+[06-Apr-2017 16:59:36 America/Toronto] PHP Parse error:  syntax error, unexpected '{' in /home/junejasa/public_html/PHP/Library/signup.php on line 7
+[06-Apr-2017 16:59:49 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/junejasa/public_html/PHP/Library/signup.php on line 20
+[06-Apr-2017 17:32:48 America/Toronto] PHP Fatal error:  Function name must be a string in /home/junejasa/public_html/PHP/Library/secure.php on line 12
+[06-Apr-2017 17:33:34 America/Toronto] PHP Fatal error:  Function name must be a string in /home/junejasa/public_html/PHP/Library/secure.php on line 13
+[06-Apr-2017 17:33:51 America/Toronto] PHP Fatal error:  Call to undefined function str() in /home/junejasa/public_html/PHP/Library/secure.php on line 12
+[06-Apr-2017 17:34:08 America/Toronto] PHP Warning:  substr() expects at least 2 parameters, 1 given in /home/junejasa/public_html/PHP/Library/secure.php on line 12
+[06-Apr-2017 17:36:14 America/Toronto] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/junejasa/public_html/PHP/Library/secure.php on line 99
+[06-Apr-2017 17:43:23 America/Toronto] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home/junejasa/public_html/PHP/Library/secure.php on line 24
+[06-Apr-2017 21:42:05 America/Toronto] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/junejasa/public_html/PHP/Library/secureAdmin.php on line 38
+[06-Apr-2017 21:43:27 America/Toronto] PHP Fatal error:  Call to a member function query() on null in /home/junejasa/public_html/PHP/Library/secureAdmin.php on line 16
+[06-Apr-2017 21:44:18 America/Toronto] PHP Fatal error:  Call to a member function query() on null in /home/junejasa/public_html/PHP/Library/secureAdmin.php on line 16
+[06-Apr-2017 21:45:04 America/Toronto] PHP Fatal error:  Call to a member function query() on null in /home/junejasa/public_html/PHP/Library/secureAdmin.php on line 16
+[06-Apr-2017 21:52:12 America/Toronto] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/junejasa/public_html/PHP/Library/secureAdmin.php on line 12
+[06-Apr-2017 22:17:23 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/junejasa/public_html/PHP/Library/secureAdmin.php on line 29
+[06-Apr-2017 22:17:36 America/Toronto] PHP Parse error:  syntax error, unexpected '}' in /home/junejasa/public_html/PHP/Library/secureAdmin.php on line 28
+[06-Apr-2017 22:27:30 America/Toronto] PHP Fatal error:  Call to a member function query() on null in /home/junejasa/public_html/PHP/Library/secureAdmin.php on line 19
